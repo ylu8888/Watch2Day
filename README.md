@@ -14,7 +14,7 @@ Tech Used:
 -Utilized async and await for faster processing time when fetching data and state/effect hooks
 
 -Used ReactJS, Bootstrap, Postman, HTML, JSX, CSS and deployed to Netlify
-
-https://github.com/ylu8888/Watch2Day/assets/123523291/45c802c6-240d-4993-9672-9c12ecb9c3dd
+[
+https://github.com/ylu8888/Watch2Day/assets/123523291/6f04792c-c623-4b4e-b685-56fadbddfd6a
 
 ![image](https://github.com/ylu8888/Watch2Day/assets/123523291/91b48c38-294b-4ff2-b67a-72b265b0db44)
