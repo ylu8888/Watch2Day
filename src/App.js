@@ -68,7 +68,7 @@ const removeFavMovie = (movie) => {
   <div className='container-fluid movie-app'>
     <div className='row d-flex align-items-center mt-4 mb-1'>
 
-      <Heading heading="Watch2day"/>
+      <Heading heading="Watch2Day"/>
       <Search search={search} setSearch={setSearch}/>
     </div>
 
