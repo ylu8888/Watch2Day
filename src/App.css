@@ -9,9 +9,11 @@ body{
   
 }
 
+
 .movie-app > .row::-webkit-scrollbar{
-  display: none; /* gets rid of the scroll bar*/
+  display: none; 
 }
+
 
 .heading{ /*watch2day and watchlist*/
   color: purple;

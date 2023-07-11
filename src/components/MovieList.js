@@ -3,6 +3,8 @@ import React from 'react';
 //App component passes state data to this component, taking in prop as input
 
 const MovieList = (props) => {// props/properties variable name for the movies
+    
+    
     const FavComp = props.FavComp;
     return(
         <>

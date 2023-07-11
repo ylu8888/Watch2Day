@@ -4,6 +4,7 @@ import Heading from './components/Heading';
 import Search from './components/Search';
 import AddFavs from './components/AddFavs';
 import RemoveFavs from './components/RemoveFavs';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -37,8 +38,11 @@ useEffect(() => {
   const movieFavs = JSON.parse( //favorites stored in object 'movieFavs'
     localStorage.getItem('react-movie-app-favorites')
   );
-
-  setFavorites(movieFavs);
+  
+  if(movieFavs){ //prevent null mapping error
+    setFavorites(movieFavs);
+  }
+  
 }, []);
 
 const saveStorage = (items) => {
