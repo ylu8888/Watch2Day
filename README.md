@@ -17,4 +17,6 @@ Tech Used:
 
 https://github.com/ylu8888/Watch2Day/assets/123523291/6f04792c-c623-4b4e-b685-56fadbddfd6a
 
-![image](https://github.com/ylu8888/Watch2Day/assets/123523291/91b48c38-294b-4ff2-b67a-72b265b0db44)
+![image](https://github.com/ylu8888/Watch2Day/assets/123523291/c45bdb8e-77b2-4d2b-8ad3-d4d0d2714b0f)
+
+
