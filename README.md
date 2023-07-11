@@ -7,11 +7,9 @@ Purpose: to practice more React, API fetching, and to get familiar with Postman 
 
 Tech Used: 
 
--Integrated with the OMDb API to get access to thousands of movies, using Postman to test and explore the API
+-Utilized Postman to test and explore the OMDb API, getting access to thousands of movies and tv shows
 
--Implemented an Add to Watchlist feature to store movies in local storage
-
--Implemented a watchlist that can add and remove movies, which get saved to storage
+-Implemented an Add/Remove to Watchlist feature to store movies in local storage
 
 -Utilized async and await for faster processing time when fetching data and state/effect hooks
 
