@@ -1,4 +1,4 @@
-# Watch2Day 
+# Watch2Day https://watch2day.netlify.app/
 
 Watch2Day is an app that searches for movies and tv shows which can be added/removed from a watchlist.
 
@@ -12,4 +12,6 @@ Tech Used:
 
 -Utilized async and await for faster processing time when fetching data and state/effect hooks
 
--Used ReactJS, Bootstrap, Postman, HTML, JSX, CSS
+-Used ReactJS, Bootstrap, Postman, HTML, JSX, CSS and deployed to Netlify
+
+![image](https://github.com/ylu8888/Watch2Day/assets/123523291/91b48c38-294b-4ff2-b67a-72b265b0db44)
