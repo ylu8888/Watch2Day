@@ -6,13 +6,46 @@ body{
 .movie-app > .row{
   overflow-x: auto;  
   flex-wrap: nowrap;
+  
 }
 
-/* to make the gap between movies small
+.movie-app > .row::-webkit-scrollbar{
+  display: none; /* gets rid of the scroll bar*/
+}
+
+.heading{ /*watch2day and watchlist*/
+  color: purple;
+  font-size: 32px;
+  font-family: Fantasy;
+}
+
+/* make poster smaller */
+.poster{
+  width: 200px;
+  height: 300px;
+}
+
+.form-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -95%;
+  width: 70%;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 18px;
+  text-transform: capitalize;
+  outline: none;
+  
+}
+
+/* make gap between movies smaller
 .row * {
   width:auto;
 }
 */
+
 
 .image-container{
   position: relative;
@@ -23,4 +56,21 @@ body{
   cursor: pointer;
   transform: scale(1.1); /* enlarge movie when hovering over it */
 }
+
+.image-container:hover .overlay{
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
 
