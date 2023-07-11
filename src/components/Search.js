@@ -6,7 +6,7 @@ const Search = (props) => {
             <input className="form-control" 
             value={props.value}
             onChange={(e)=> props.setSearch(e.target.value)}
-             placeholder="I'm looking for..."></input>
+             placeholder="Search for any movie!"></input>
 
         </div>
     )
