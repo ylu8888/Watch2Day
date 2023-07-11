@@ -15,4 +15,9 @@ Tech Used:
 
 -Used ReactJS, Bootstrap, Postman, HTML, JSX, CSS and deployed to Netlify
 
-![image](https://github.com/ylu8888/Watch2Day/assets/123523291/91b48c38-294b-4ff2-b67a-72b265b0db44)
+https://github.com/ylu8888/Watch2Day/assets/123523291/8356f73f-05d6-4a1a-b4e8-c3db9b0098b2
+
+![image](https://github.com/ylu8888/Watch2Day/assets/123523291/5d23a6c7-4a7b-4731-aec4-62ed18343140)
+
+
+
