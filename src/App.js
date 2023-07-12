@@ -69,21 +69,21 @@ const removeFavMovie = (movie) => {
 
  return( 
   
-  <div className='container-fluid movie-app'>
+  <div className='container-fluid movie-app'> {/* bootstrap to create rows of movies after searching*/}
     <div className='row d-flex align-items-center mt-4 mb-1'>
 
       <Heading heading="Watch2Day"/>
-      <Search search={search} setSearch={setSearch}/>
+      <Search search={search} setSearch={setSearch}/> {/* passing state data as prop for Search component */}
     </div>
 
     <div className='row'>
       <MovieList 
-      movies = {movies}
+      movies = {movies} //passing in the movies state data as prop, to render actual movie posters from the MovieList component
       favClick={addFavMovie} 
       FavComp={AddFavs}/>
     </div>
     
-  
+    {/* Since we have heading and movielist components, we can just repeat it again for convenience*/}
     <div className='row d-flex align-items-center mt-4 mb-1'>
       <Heading heading="Watchlist"/> 
       
@@ -93,7 +93,7 @@ const removeFavMovie = (movie) => {
       <MovieList 
       movies = {favorites}
       favClick={removeFavMovie} 
-      FavComp={RemoveFavs}/>
+      FavComp={RemoveFavs}/>  {/*a component can be passed as a prop to another component*/}
     </div>
     
 
